@@ -1,0 +1,75 @@
+/* CSS Document */
+
+figure{
+		
+		border:thin#c0c0c0 solid;
+		padding: 5px;
+		margin: auto;
+		max-width: 200px;
+		 }
+	figcaption{
+		
+		background-color: #222;
+		color :#fff;
+		font:italic smaller sans-serif;
+		padding:3px;
+		text-align: center;		
+	}
+
+img, img:hover
+{
+	transition: all 2s ease-in-out;
+}
+img.img1
+{
+	content:url(../0dfb3ad0-b92a-4631-9a91-ed07d952a8a5.jpg);
+		max-height:190px;
+	max-width: 190px;
+}
+img.img2
+{
+	content: url(../69375113_899599223729999_7153337468224274432_n.jpg);
+		max-height:190px;
+	max-width: 190px;
+}
+img.img3
+{
+	content: url(../74470670_255180042046954_3972889004143017984_n.jpg);
+	
+	max-height:190px;
+	max-width: 190px;
+}
+img.img4
+{
+	content: url(../69359308_2496298837096830_942914925435551744_n.jpg);
+	
+	max-height:190px;
+	max-width: 190px;
+}
+
+img.imagen01:hover{
+	filter:saturate(2)
+}
+img.imagen02:hover{
+	transform: rotate(360deg);
+	filter: grayscale()
+
+}
+img.imagen03:hover
+{
+	filter:opacity(0.5)
+		border-radius: 50%;
+	box-shadow: 0px 0px 15px 15px #ec731e;
+		transform: scale(1.7);
+}
+.zoomin{
+	overflow:hidden;
+}
+
+img.imagen04:hover{
+	
+	transform: rotateY(180deg);
+	transform-style: preserve-3d;
+	
+
+}
