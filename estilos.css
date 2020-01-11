@@ -1,0 +1,73 @@
+/* CSS Document */
+
+header{
+	background-color: black;
+}
+
+h1{
+	color: white;
+	text-align: center;
+}
+nav{
+	background-color: silver;
+	text-align: center
+}
+section{
+	background-color: #83B55A;
+	float: left;
+	width:80%;
+	}
+
+h2{
+	text-align: center;
+}
+article{
+	background: #E0ED81;
+	float: left;
+	width:70%
+}
+
+p{
+	background: skyblue; 
+	float: left;
+	width: 70%;
+}
+
+footer{
+	background: #DBDBDB;
+}
+
+img.img1
+{
+	content:url(" img/acoso-escolar-kxpB--620x349@abc.jpg");
+		max-height:190px;
+	max-width: 190px;
+}
+img.img2
+{
+	content:url( img/bullying-1435333395965.jpg);
+		max-height:200;
+	max-width: 200;
+}
+img.imagen01:hover{
+	transform: rotate(360deg);
+	filter: grayscale()
+}
+img.imagen02:hover{
+	filter:opacity(0.5);
+		border-radius: 40%;
+	box-shadow: 0px 0px 12px 12px #ec731e;
+		transform: scale(1.5);
+}
+.header {
+    color: #36A0FF;
+    font-size: 27px;
+    padding: 10px;
+}
+
+.bigicon {
+    font-size: 35px;
+    color: #36A0FF;
+}	
+
+ 
